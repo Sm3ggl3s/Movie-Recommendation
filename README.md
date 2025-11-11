@@ -35,9 +35,9 @@ The **MovieLens 100K** dataset containing:
 - Ratings: 100,000 (scale of 1-5)
 
 ### Files Used
-users.csv
-movie.csv
-ratings.csv
+- users.csv
+- movie.csv
+- ratings.csv
 
 ---
 
