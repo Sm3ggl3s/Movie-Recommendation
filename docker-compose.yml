@@ -1,0 +1,10 @@
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ${PROJECT_PATH}:/home/jovyan/Notebooks
+    ports:
+      - "${PORT}:8888"
+    command: "start-notebook.sh --NotebookApp.token="

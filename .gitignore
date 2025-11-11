@@ -1,0 +1,102 @@
+# ----------------------------
+# OS / Editor / IDE cruft
+# ----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ----------------------------
+# Python / Jupyter
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.jupyter/
+.jupyterlab/
+*.log
+
+# ----------------------------
+# Jupyter runtime + notebook autosaves
+# ----------------------------
+~$*
+*.bak
+*.tmp
+*.autosave.ipynb
+
+# ----------------------------
+# Notebooks cache
+# ----------------------------
+# (keep your actual notebooks, just ignore metadata)
+*/.ipynb_checkpoints/*
+
+# ----------------------------
+# Docker / build artifacts
+# ----------------------------
+# Local environment or build caches
+.docker/
+docker-compose.override.yml
+*.pid
+*.seed
+*.pid.lock
+tmp/
+logs/
+# Named Docker volumes (if accidentally created)
+venv-cache/
+# Python packages installed in the container (rebuilt from requirements.txt)
+site-packages/
+pip-wheel-metadata/
+
+# ----------------------------
+# Compiled or generated data
+# ----------------------------
+*.tsv
+*.out
+*.db
+*.sqlite
+*.sqlite3
+*.h5
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.jsonl
+*.parquet
+*.feather
+
+# ----------------------------
+# Jupyter notebooks output checkpoints
+# ----------------------------
+# keep .ipynb (your actual notebooks)
+# if you store large output notebooks elsewhere, you can exclude those separately
+# e.g.:
+# outputs/
+# experiments/
+
+# ----------------------------
+# VS Code dev containers (optional)
+# ----------------------------
+.devcontainer/
+
+# ----------------------------
+# Backup archives
+# ----------------------------
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ----------------------------
+# Miscellaneous
+# ----------------------------
+DATA/
